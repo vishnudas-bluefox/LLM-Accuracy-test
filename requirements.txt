@@ -16,7 +16,7 @@ multidict==6.0.4
 numpy==1.26.4
 pandas==2.2.1
 Pygments==2.17.2
-pymongo==4.6.1
+pymongo==4.6.3
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.1
