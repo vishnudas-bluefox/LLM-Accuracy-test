@@ -4,8 +4,8 @@ from icecream import ic
 import pandas as pd
 
 
-from helpers import extract_dicts_from_string
-from llm_analysis import LLMAnalyzer
+from analysis.helpers import extract_dicts_from_string
+from analysis.llm_analysis import LLMAnalyzer
 
 class CSVProcessor:
     def __init__(self, filename):

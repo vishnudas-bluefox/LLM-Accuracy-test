@@ -35,8 +35,6 @@ class LLMAnalyzer:
             }, headers={
                 "Authorization": os.getenv("TOKEN"),
             }) as response:
-                data = await response.text()
-                ic(data)
                 return await response.text()
     def clean_response_data(self,response_text):
     # Extracting the JSON string from response text

@@ -1,6 +1,6 @@
 import asyncio
 
-from csv_processor import CSVProcessor
+from analysis.csv_processor import CSVProcessor
 
 async def main():
     processor = CSVProcessor('data.csv')
